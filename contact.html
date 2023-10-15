@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <section class="contact-methods">
+        <div class="contact-card whatsapp">
+            <h2>WhatsApp</h2>
+            <p>Get in touch via WhatsApp:</p>
+            <a href="https://wa.me/+233206694543" target="_blank">Open WhatsApp</a>
+        </div>
+        <div class="contact-card phone-call">
+            <h2>Phone Call</h2>
+            <p>Give us a call:</p>
+            <a href="tel:+233206694543">Call Now</a>
+        </div>
+    </section>
+
+    <section class="contact-methods">
+        <div class="contact-card address">
+            <h2>Address</h2>
+            <p>Aboduase Main Street, Abakrampa, Ghana</p>
+        </div>
+        <div class="contact-card email">
+            <h2>Email</h2>
+            <p>Email us at:</p>
+            <a href="mailto:josephderricktechie7@gmail.com">josephderricktechie7@gmail.com</a>
+        </div>
+        <div class="contact-card social-media">
+            <h2>Social Media</h2>
+            <p>Connect with us:</p>
+            <a href="https://www.facebook.com/Joseph Derrick Techie" target="_blank">Facebook</a>
+            <a href="https://twitter.com/@TechieDerrick" target="_blank">Twitter</a>
+            <!-- Add links to other social media platforms -->
+        </div>
+    </section>
+    <section class="contact-form">
+        <h2>Contact Form</h2>
+        <form action="php.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <!--In this extended example, you can:
+    
+    Replace contact@example.com with your actual email address.
+    Create links to your social media profiles by replacing the example URLs.
+    Implement server-side processing by creating a process_form.php file to handle form submissions and send emails. This requires knowledge of server-side scripting and may vary depending on your hosting environment.
+    Remember to enhance the CSS for the new sections and elements, so they are visually consistent with the rest of your page. Additionally, consider incorporating JavaScript for client-side validation and other interactive features if needed.
+    
+    
+    
+    -->
+    
+    
+
+</body>
+</html>
